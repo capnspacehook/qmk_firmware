@@ -1,12 +1,13 @@
 #pragma once
 
+// TODO: harmony?
 #ifdef AUDIO_ENABLE
 #    ifndef STARTUP_SONG
-#        define STARTUP_SONG SONG(E__NOTE(_DS5), E__NOTE(_D5), E__NOTE(_AS4), Q__NOTE(_F5))
+#        define STARTUP_SONG SONG(H__NOTE(_A4), H__NOTE(_AS4), H__NOTE(_B4), W__NOTE(_C5)) // Zelda item fanfare
 #    endif
 
 #    ifndef GOODBYE_SONG
-#        define GOODBYE_SONG SONG(E__NOTE(_D5), E__NOTE(_F5), E__NOTE(_C5), Q__NOTE(_AS4))
+#        define GOODBYE_SONG SONG(WD_NOTE(_EF4), WD_NOTE(_DF4), H__NOTE(_E4), B__NOTE(_C4)) // Hades death
 #    endif
 #endif
 
